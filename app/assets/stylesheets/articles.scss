@@ -30,3 +30,53 @@
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
+input[type="submit"] {
+
+  border: none;
+  background: none;
+  color: mediumslateblue;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+    color: slateblue;
+  }
+
+}
+
+.panel-danger {
+  border-color: #ebccd1;
+}
+
+.panel-danger>.panel-heading {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.panel-body {
+  padding: 15px;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 8px;
+}
