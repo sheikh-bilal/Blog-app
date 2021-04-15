@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails practice Blog app which has following functionalities:
 
-Things you may want to cover:
+* CRUD opertions
 
-* Ruby version
+* User login system (encrypted)
 
-* System dependencies
+* Associations between models
 
-* Configuration
+* Pagonation using kaminari
 
-* Database creation
+* Gravatar for profile image
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+****************************************************************
