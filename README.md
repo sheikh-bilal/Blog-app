@@ -8,7 +8,11 @@ Rails practice Blog app which has following functionalities:
 
 * Associations between models
 
-* Pagonation using kaminari
+* Pagination using will_paginate
+
+* authorizaton on controller and views
+
+* Styling using Bootstrap and CSS
 
 * Gravatar for profile image
 
